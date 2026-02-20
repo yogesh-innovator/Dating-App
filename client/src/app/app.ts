@@ -1,11 +1,10 @@
-import { JsonPipe } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { Component, inject, signal } from '@angular/core';
 import { lastValueFrom } from 'rxjs';
 
 @Component({
   selector: 'app-root',
-  imports: [JsonPipe],
+  imports: [],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
